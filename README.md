@@ -3,13 +3,11 @@
 ## Пример настроек Bots Logic ##
 
 ```js
- const BLsettings = {
-    useKeyWords : true,
-    useMenus : false,
-    useStaticWords : true,
+{
     keyWords : {...},
     menus : {...},
-    staticWords:{...};
+    staticWords:{...}
+}
 ```
 
 сначала определяем какие модули мы используем, их всего 3-и на выбор:

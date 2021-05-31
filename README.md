@@ -85,12 +85,12 @@ menus : {
     main : {
         items:[
             {
-                text: "Сколько, бля, время?!",
+                text: "Сколько время?",
                 type: "function",
                 funcName: "getTime"
             },
             {
-                text: "Какой, сука, день?!",
+                text: "Какой день?",
                 type: "function",
                 funcName: "getDay"
             },
@@ -98,13 +98,13 @@ menus : {
                 text: "Админ меню",
                 type: "redirect",
                 menuName: "admin"
-            },
+            }
         ]
     },
     admin : {
         items:[
             {
-                text: "Какая-то админская хуета!",
+                text: "Забанить!",
                 type: "function",
                 funcName: "admin"
             },

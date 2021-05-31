@@ -44,12 +44,12 @@ main : {
 ``` js
 items:[
     {
-        text: "Сколько, бля, время?!",
+        text: "Сколько время?",
         type: "function",
         funcName: "getTime"
     },
     {
-        text: "Какой, сука, день?!",
+        text: "Какой день?",
         type: "function",
         funcName: "getDay"
     },
